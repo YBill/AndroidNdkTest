@@ -1,5 +1,6 @@
 package com.bill.androidndktest;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.widget.TextView;
@@ -23,6 +24,10 @@ public class MainActivity extends AppCompatActivity {
         Log.e("Bill", "title = " + title);
 
         textView.setText(title);
+
+
+        Intent intent = new Intent(this, NDKTestActivity.class);
+        startActivity(intent);
 
     }
 }
