@@ -28,4 +28,10 @@
         android:onClick="handleClickInstanceMethod"
         android:text="Native Call Java Instance Method" />
 
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="handleShowLog"
+        android:text="Show Log" />
+
 </LinearLayout>

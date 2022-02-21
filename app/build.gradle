@@ -35,4 +35,6 @@ dependencies {
 
     implementation project(':nativelib') // Google自动生成的示例
     implementation project(':native-lib-test') // 练习测试
+
+    implementation project(':keepalive')
 }

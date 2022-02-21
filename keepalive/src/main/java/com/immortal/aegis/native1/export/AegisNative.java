@@ -17,4 +17,6 @@ public class AegisNative {
         }
     }
 
+    public static final native int log(String msg);
+
 }
