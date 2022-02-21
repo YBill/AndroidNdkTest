@@ -10,3 +10,4 @@ rootProject.name = "AndroidNdkTest"
 include ':app'
 include ':nativelib'
 include ':native-lib-test'
+include ':keepalive'
