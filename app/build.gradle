@@ -37,6 +37,7 @@ dependencies {
     implementation project(':native-lib-test') // 练习测试
 
     implementation project(':cm_secret') // cmb
+    implementation project(':SecretLib') // cm
 
     implementation project(':keepalive')
 }
